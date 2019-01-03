@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1545234961307" stop="1545234963411" version="1.4.15" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>Test login with valid creditential | chamok@gmail.com | password2 |</name>
+    <title>Test login with valid creditential | chamok@gmail.com | password2 |</title>
+    <test-cases>
+        <test-case start="1545234961309" stop="1545234961309" status="passed">
+            <name>Given open Chorme and start application</name>
+            <title>Given open Chorme and start application</title>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="codeLover.local"/>
+                <label name="thread" value="41894@codeLover.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1545234961755" stop="1545234961755" status="passed">
+            <name>When I enter valid "chamok@gmail.com" and valid "password2"</name>
+            <title>When I enter valid "chamok@gmail.com" and valid "password2"</title>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="codeLover.local"/>
+                <label name="thread" value="41894@codeLover.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1545234963274" stop="1545234963274" status="passed">
+            <name>Then user should be able to login successfully</name>
+            <title>Then user should be able to login successfully</title>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="codeLover.local"/>
+                <label name="thread" value="41894@codeLover.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1545234963404" stop="1545234963408" status="passed">
+            <name>Then application should be closed</name>
+            <title>Then application should be closed</title>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="codeLover.local"/>
+                <label name="thread" value="41894@codeLover.local.main(1)"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="story" value="Test login with valid creditential | chamok@gmail.com | password2 |"/>
+        <label name="feature" value="Test Facebook smoke Scenario"/>
+        <label name="framework" value="CucumberJVM"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>

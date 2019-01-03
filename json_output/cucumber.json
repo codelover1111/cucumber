@@ -1,0 +1,228 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 10,
+        "name": "Test login with valid creditential",
+        "description": "",
+        "id": "test-facebook-smoke-scenario;test-login-with-valid-creditential;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 8202146830,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "open Chorme and start application",
+            "match": {
+              "location": "LoginStep.open_Chorme_and_start_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 570672242,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I enter valid \"chamok@gmail.com\" and valid \"password1\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "chamok@gmail.com",
+                  "offset": 15
+                },
+                {
+                  "val": "password1",
+                  "offset": 44
+                }
+              ],
+              "location": "LoginStep.i_enter_valid_and_valid(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1683847273,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user should be able to login successfully",
+            "match": {
+              "location": "LoginStep.user_should_be_able_to_login_successfully()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 117885714,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "application should be closed",
+            "match": {
+              "location": "LoginStep.application_should_be_closed()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 11,
+        "name": "Test login with valid creditential",
+        "description": "",
+        "id": "test-facebook-smoke-scenario;test-login-with-valid-creditential;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2969030817,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "open Chorme and start application",
+            "match": {
+              "location": "LoginStep.open_Chorme_and_start_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 443212086,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I enter valid \"chamok@gmail.com\" and valid \"password2\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "chamok@gmail.com",
+                  "offset": 15
+                },
+                {
+                  "val": "password2",
+                  "offset": 44
+                }
+              ],
+              "location": "LoginStep.i_enter_valid_and_valid(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1516187006,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user should be able to login successfully",
+            "match": {
+              "location": "LoginStep.user_should_be_able_to_login_successfully()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 127217138,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "application should be closed",
+            "match": {
+              "location": "LoginStep.application_should_be_closed()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 12,
+        "name": "Test login with valid creditential",
+        "description": "",
+        "id": "test-facebook-smoke-scenario;test-login-with-valid-creditential;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2964560244,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "open Chorme and start application",
+            "match": {
+              "location": "LoginStep.open_Chorme_and_start_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 299318856,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I enter valid \"chamok@gmail.com\" and valid \"password3\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "chamok@gmail.com",
+                  "offset": 15
+                },
+                {
+                  "val": "password3",
+                  "offset": 44
+                }
+              ],
+              "location": "LoginStep.i_enter_valid_and_valid(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1612645751,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user should be able to login successfully",
+            "match": {
+              "location": "LoginStep.user_should_be_able_to_login_successfully()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 108970433,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "application should be closed",
+            "match": {
+              "location": "LoginStep.application_should_be_closed()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Test Facebook smoke Scenario",
+    "description": "",
+    "id": "test-facebook-smoke-scenario",
+    "keyword": "Feature",
+    "uri": "/Users/fatemaislam/Documents/workspace/scenarioOutLine/Features/application.feature"
+  }
+]
